@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(0, 0, 0)</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>32</width>
+    <height>32</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255)</string>
+      </property>
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QLabel" name="label_Name">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>110</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2_Email">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>180</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_Name">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>110</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(1, 1, 1);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2_Email">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>180</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3_Password">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>250</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3_Password">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>250</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4_Login">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>70</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>Create Account</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Sign_in">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>300</y>
+         <width>131</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(253, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Sign up</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2_Logo">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>451</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../Downloads/EcoWardrobe-01.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <zorder>label_2_Logo</zorder>
+      <zorder>label_Name</zorder>
+      <zorder>label_2_Email</zorder>
+      <zorder>lineEdit_Name</zorder>
+      <zorder>lineEdit_2_Email</zorder>
+      <zorder>label_3_Password</zorder>
+      <zorder>lineEdit_3_Password</zorder>
+      <zorder>label_4_Login</zorder>
+      <zorder>pushButton_Sign_in</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>776</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuEcoWardrobe">
+    <property name="title">
+     <string>EcoWardrobe</string>
+    </property>
+   </widget>
+   <addaction name="menuEcoWardrobe"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
