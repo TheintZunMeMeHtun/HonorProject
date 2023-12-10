@@ -10,6 +10,8 @@ The fashion industry significantly impacts the environment. To combat this, Eco 
 Integration of BMCC Recycles: The heart of our project lies in the integration of recycled materials sourced from BMCC into our fashion app. By collaborating with BMCC, we can create a unique selling point for Eco Wardrobe, showcasing the beauty and sustainability of garments crafted from materials recycled within the local community.
 Educational and Awareness Features: In addition to being a marketplace, Eco Wardrobe will include educational features highlighting the environmental benefits of recycled materials and BMCC's recycling initiatives. This will not only inform users about sustainable practices but also increase the visibility of BMCC's commitment to environmental sustainability.
 
+- [Project Video](https://youtu.be/vKrhDMMrMVI?si=yaGjI5CLg7bnLd85)
+
 
 ## Features
 
@@ -29,6 +31,8 @@ For more information, visit our [website for EcoWardrobe](https://sites.google.c
 ![UML Diagram](UML%20class.jpeg)
 
 ## Additional Resources
+-[Project Presentation Slides](https://docs.google.com/presentation/d/1vLF_Kp_qoi5o8MMq3C-Q2fozU9F2cDSmWD_vAWPMxDk/edit?usp=sharing)
 
-- [Project Video](https://youtu.be/vKrhDMMrMVI?si=yaGjI5CLg7bnLd85)
+
+
 
