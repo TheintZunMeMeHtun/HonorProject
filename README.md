@@ -18,16 +18,15 @@ Educational and Awareness Features: In addition to being a marketplace, Eco Ward
 - **Community Integration:** Support the local community by choosing garments crafted from locally recycled materials.
 
 For more information, visit our [website for EcoWardrobe](https://sites.google.com/d/1GshkGwZTSbV2ACZ8nNHLmR8Ve7w7Noba/p/1OTi1GzME5qItnxAyl9BL0lyiYCRHFKPG/edit).
-![Alt text](/Users/theintzun/Downloads/Flowchart Template.jpg)
 
 
 ## Flowchart
 
-![Flowchart](Users/theintzun/Downloads/Flowchart Template.jpg)
+![Flowchart](Flowchart Template.jpg)
 
 ## UML Diagram
 
-![UML Diagram](Users/theintzun/Downloads/UML class.jpeg)
+![UML Diagram](UML class.jpeg)
 
 ## Additional Resources
 
