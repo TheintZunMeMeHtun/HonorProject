@@ -22,11 +22,11 @@ For more information, visit our [website for EcoWardrobe](https://sites.google.c
 
 ## Flowchart
 
-![Flowchart]("Flowchart%20Template.jpg")
+![Flowchart]("Flowchart Template.jpg")
 
 ## UML Diagram
 
-![UML Diagram]("UML%20class.jpeg")
+![UML Diagram]("UML class.jpeg")
 
 ## Additional Resources
 
