@@ -1,8 +1,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "homepage.h"  // Ensure this include is correct
+#include "homepage.h"  
 #include <QMessageBox>
 #include<QPixmap>
+#include <QFile>
+#include <QTextStream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -24,17 +26,19 @@ void MainWindow::on_pushButton_Sign_in_clicked()
     QString Email = ui->lineEdit_2_Email->text();
     QString Password = ui->lineEdit_3_Password->text();
 
-    if(Name == "t" && Email == "t" && Password == "t")
-    {
-        QMessageBox::information(this, "Sign up Successful", "Your account have been successfully created.");
+    try {
+        if(Name != "t" || Email != "t" || Password != "t") {
+            throw InvalidCredentialsException();
+        }
 
+        QMessageBox::information(this, "Sign up Successful", "Your account has been successfully created.");
 
         Homepage *homepageWindow = new Homepage(this);
         homepageWindow->show();
         this->hide();
-    }
-    else
-    {
-        QMessageBox::warning(this, "Login Failed", "The username, email, or password is incorrect.");
+
+    } catch (const InvalidCredentialsException& e) {
+
+        QMessageBox::warning(this, "Sign up Failed", e.what());
     }
 }
